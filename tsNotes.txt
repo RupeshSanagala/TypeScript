@@ -1,0 +1,32 @@
+2/12/24
+-------------------------
+Introduction:
+-------------------
+It is the super set of javascript.
+It is compile language.
+It is Strictly typed language.
+
+How to install typeScript.
+-----------------------------
+npm i -g typescript 
+
+how to execute typescript file.
+---------------------------------
+npx tsc fileName.ts // compile ts file and create on plain js file
+node fileName.js // to execute js file
+
+OOPS:
+-------
+1.class:
+-------------
+It is a collection of data memeber and function memeber
+it is a template which we can re use.
+to craete class we use class keyword.
+
+this:
+-----
+it is akeyword that refers to current class variables inside an function or constructor.
+
+2.Object:
+---------------
+
