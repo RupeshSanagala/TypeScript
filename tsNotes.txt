@@ -29,4 +29,68 @@ it is akeyword that refers to current class variables inside an function or cons
 
 2.Object:
 ---------------
+It allows us to access class member and data member outside class.
+
+syntax: let objName = new ClassName();
+
+3.constructor:
+-----------------
+It is a special member function of class
+It will execute automatically when class Object get created or initialized
+we create constructor using "constructor" keyword.
+
+3/12/2024
+------------
+
+Inheritance:
+--------------------
+Access parent class property into child class.
+To perform Inheritance in b/w classes we use extends keyword.
+
+super():
+=============
+It represent parent class constructor inside child class constructor.
+super method must be first statement in child class constructor.
+
+Encapsulation:
+-------------
+wrapping of data into single unit.
+
+polymorphism:
+----------------
+It is the ability to take more than one form.
+
+there are two types:
+------------------------
+1.compile time polymorphism(method overloading): 
+---------------------------------------------------
+when we have multiple method with same name with different parametrs.
+
+2.Run time polymorphism(method overriding):
+-----------------------------------------------
+when we have multiple method with same name within different classes.
+
+Abtsraction:
+-------------------
+hiding implementation and showing only necessary details.
+we can achieve this by using interface,abstract class.
+
+Module:
+-------------
+
+writing ts code in single or multiple file and access it in another file.
+to achieve this we use export or import keyword.
+Note: in case of default export no need of parenthesis(curly braces) in import statement.
+
+syntax: import Student  from "./oops";(child class)
+        export default Student;(parent class)
+
+Interface:
+=============
+
+It is signature of class.
+It contain abstract method.
+To create interface we use interface keyword.
+implementation of interface class could be done by only child class.
+It can be achieved by implement keyword.
 
